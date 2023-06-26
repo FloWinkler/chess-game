@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-    margin: 300px 0px 0px 0px;
-    font-size: 3vw;
+    margin-top: 20;
+    margin-bottom: 20;
+    font-size: 3.3vw;
 `;
 
 // Div that wraps everything but the title
