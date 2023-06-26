@@ -164,6 +164,8 @@ export default function Board() {
                 />
             )}
             </BoardWrapper>
+                
+
             {/* Area for killed black pieces */}
             <Graveyard>
                 {/* Rendering a piece if it is inside the "killed" array */}

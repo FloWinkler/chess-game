@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-    margin: 10vw 1vw 1vw 1vw;
-    font-size: 4vw;
+    margin: 10px 0px 0px 0px;
+    font-size: 3vw;
 `;
 
 // Div that wraps everything but the title
@@ -18,14 +18,13 @@ export const ChessDiv = styled.div`
 // The actual Chessboard
 export const BoardWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 6.5vw);
-  grid-template-rows: repeat(8, 6.5vw);
-  width: 52vw;
-  height: 52vw;
+  grid-template-columns: repeat(8, 5.5vw);
+  grid-template-rows: repeat(8, 5.5vw);
+  width: 44vw;
+  height: 44vw;
   border: solid 0.3vw;
   border-radius: 0.4vw;
-  border-color: rgb(255, 255, 50);
-  background: rgb(255, 255, 255);
+  border-color: black;
 `;
 
 // The graveyards for "killed" pieces
