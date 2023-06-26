@@ -4,6 +4,7 @@ export const Title = styled.h1`
     margin-top: 20;
     margin-bottom: 20;
     font-size: 3.3vw;
+    color: #fde047;
 `;
 
 // Div that wraps everything but the title
