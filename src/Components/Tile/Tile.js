@@ -23,7 +23,7 @@ export default function Tile({ field, piece, index, func, selected }) {
         // passing the clicked field id (i.e. "a2") as a string
         onClick={() => func(field)}
         // conditional styling to make a selected tile brighter
-        style={selected ? {"filter": "brightness(150%)"} : {}}
+        style={selected ? {"filter": "brightness(300%)"} : {}}
     >
       {piece && (
         // conditional styling to make a selected piece larger

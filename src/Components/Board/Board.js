@@ -10,7 +10,7 @@ export default function Board() {
     const [positions, setPositions] = useState({
 
     // Dark Pieces
-    a8: "rook_b",
+    a8: "rook_b"  ,
     b8: "knight_b",
     c8: "bishop_b",
     d8: "queen_b",
@@ -109,7 +109,9 @@ export default function Board() {
     }
 
     // function to render piece icons
-    const getPieceIcon = (piece) => {
+    const getPieceIcon = (piece, color) => {
+        
+        
         switch (piece) {
             case "rook_b":
                 return <FaChessRook />;
@@ -135,6 +137,7 @@ export default function Board() {
                 return <FaChessKing style={{"color": "white"}}/>;
             case "pawn_w":
                 return <FaChessPawn style={{"color": "white"}}/>;
+        
         }
     }
 

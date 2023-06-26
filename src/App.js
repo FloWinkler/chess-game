@@ -5,7 +5,7 @@ import { Title } from './Components/Board/Board.styled';
 function App() {
   return (
     <div id="app">
-      <Title>CHESS GAME GROM SCTRATCH</Title>
+      <Title >CHESS GAME GROM SCTRATCH</Title>
       <Board/>
     </div>
   );

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-    margin: 10px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     font-size: 3vw;
 `;
 
@@ -18,13 +18,13 @@ export const ChessDiv = styled.div`
 // The actual Chessboard
 export const BoardWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 5.5vw);
-  grid-template-rows: repeat(8, 5.5vw);
-  width: 44vw;
-  height: 44vw;
-  border: solid 0.3vw;
+  grid-template-columns: repeat(8, 6vw);
+  grid-template-rows: repeat(8, 6vw);
+  width: 48vw;
+  height: 48vw;
+  border: solid 0.5vw;
   border-radius: 0.4vw;
-  border-color: black;
+  border-color: #fde047;
 `;
 
 // The graveyards for "killed" pieces
