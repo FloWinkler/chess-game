@@ -31,7 +31,7 @@ export const BoardWrapper = styled.div`
   grid-template-rows: repeat(8, 6vw);
   width: 48vw;
   height: 48vw;
-  border: solid 1.5vw;
+  border: solid 1vw;
   border-radius: 0.4vw;
   border-color: #fde047;
 `;
