@@ -5,7 +5,7 @@ export const TileWrapper = styled.div`
     place-content: center;
     width: 6vw;
     height: 6vw;
-    background-color: ${({ darkTile }) => (darkTile ? '#0ea5e9' : '#ff36f5')};
+    background-color: ${({ darkTile }) => (darkTile ? '#11cef0' : '#ff5af7')};
     cursor: pointer;
 `;
 
