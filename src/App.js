@@ -3,11 +3,12 @@ import Board from './Components/Board/Board';
 import { Title } from './Components/Board/Board.styled';
 
 function App() {
-  return (
+  return (<>
+    <Title >CHESS GAME FROM SCTRATCH</Title>
     <div id="app">
-      <Title >CHESS GAME GROM SCTRATCH</Title>
       <Board/>
     </div>
+    </>
   );
 }
 

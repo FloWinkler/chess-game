@@ -1,10 +1,17 @@
 import styled from 'styled-components';
 
 export const Title = styled.h1`
-    margin-top: 80;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 0;
     margin-bottom: 0;
-    font-size: 3.3vw;
+    font-size: 2.75vw;
     color: #fde047;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00031E;
 `;
 
 // Div that wraps everything but the title
@@ -13,17 +20,17 @@ export const ChessDiv = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 `;
 
 // The actual Chessboard
 export const BoardWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 6vw);
-  grid-template-rows: repeat(8, 6vw);
-  width: 48vw;
-  height: 48vw;
+  grid-template-columns: repeat(8, 5vw);
+  grid-template-rows: repeat(8, 5vw);
+  width: 40vw;
+  height: 40vw;
   border: solid 0.5vw;
   border-radius: 0.4vw;
   border-color: #fde047;

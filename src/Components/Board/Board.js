@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Tile from '../Tile/Tile';
-import { BoardWrapper, Graveyard, KilledPiece, ChessDiv, Title } from './Board.styled';
+import { BoardWrapper, Graveyard, KilledPiece, ChessDiv } from './Board.styled';
 import { FaChessPawn, FaChessRook, FaChessKnight, FaChessBishop, FaChessQueen, FaChessKing } from 'react-icons/fa';
 
 
