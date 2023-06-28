@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Title = styled.h1`
     width: 100vw;
     height: 10vh;
-    margin-top: 20px;
+    margin-top: 20;
     margin-bottom: 0;
-    font-size: 2.75vw;
+    font-size: 3.35vw;
     color: #fde047;
     display: flex;
     flex-direction: column;
@@ -27,10 +27,10 @@ export const ChessDiv = styled.div`
 // The actual Chessboard
 export const BoardWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 5vw);
-  grid-template-rows: repeat(8, 5vw);
-  width: 40vw;
-  height: 40vw;
+  grid-template-columns: repeat(8, 6vw);
+  grid-template-rows: repeat(8, 6vw);
+  width: 48vw;
+  height: 48vw;
   border: solid 0.5vw;
   border-radius: 0.4vw;
   border-color: #fde047;
